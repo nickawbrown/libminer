@@ -6,9 +6,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+Created as a follow-along exercise during R Package Development Workshop, 4-6 Nov 2024.
+
 The goal of libminer is to provide an overview of your R library setup.
-It is a toy package created as a part of a workshop and not meant for
-serious use.
+It is a toy package created and not meant for serious use.
 
 ## Installation
 
