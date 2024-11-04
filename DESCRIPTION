@@ -3,7 +3,7 @@ Title: Explore Your R Libraries
 Version: 0.0.0.9000
 Authors@R: 
     person("Nick", "Brown", , "nickawbrown@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "NULL"))
+           comment = c(ORCID = "0000-0002-9093-4098"))
 Description: Provides functions for learning about your R libraries and the 
     packages you have installed.
 License: MIT + file LICENSE
