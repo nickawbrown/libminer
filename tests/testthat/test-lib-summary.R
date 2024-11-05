@@ -1,3 +1,6 @@
+# Note: tests should be self-contained, i.e. do not make assignments outside
+# the test_that() blocks.
+
 test_that("lib_summary returns expected results", {
   result <- lib_summary()
 
@@ -13,3 +16,9 @@ test_that("lib_summary returns expected results", {
 test_that("lib_summary fails as expected", {
   expect_error(lib_summary("arg"), "unused argument")
 })
+
+
+# Tests can go pretty far in simulating user experience. E.g. there are
+# methods to create a temporary directory, save a file there, test that
+# file, and then delete the temporary directory and folder all within
+# a single test_that() block. See testthat documentation for instructions.
