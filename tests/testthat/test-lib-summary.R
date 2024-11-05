@@ -1,7 +1,7 @@
 # Note: tests should be self-contained, i.e. do not make assignments outside
 # the test_that() blocks.
 
-test_that("lib_summary returns expected results", {
+test_that("default lib_summary returns expected results", {
   result <- lib_summary()
 
   expect_s3_class(result, "data.frame")
@@ -13,8 +13,21 @@ test_that("lib_summary returns expected results", {
 })
 
 
+test_that("sizes argument works", {
+  result <- lib_summary(sizes = TRUE)
+
+  expect_s3_class(result, "data.frame")
+  expect_type(result$n_packages, "integer")
+  expect_type(result$Library, "character")
+  expect_type(result$lib_size, "double")
+  expect_equal(ncol(result), 3)
+  expect_gte(nrow(result), 1)
+  expect_equal(names(result), c("Library", "n_packages", "lib_size"))
+})
+
+
 test_that("lib_summary fails as expected", {
-  expect_error(lib_summary("arg"), "unused argument")
+  expect_error(lib_summary("arg"), "must be logical")
 })
 
 
