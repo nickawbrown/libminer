@@ -30,17 +30,17 @@ optionally with the total sizes, use the `lib_summary()` function:
 ``` r
 library(libminer)
 lib_summary()
-#>                                                                   Library
-#> 1                                      C:/Program Files/R/R-4.4.0/library
-#> 2                         C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> 3 C:/Users/brownn/AppData/Local/Temp/1/RtmpQvkhwe/temp_libpath5dd0fda6e55
+#>                                                                    Library
+#> 1                                       C:/Program Files/R/R-4.4.0/library
+#> 2                          C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> 3 C:/Users/brownn/AppData/Local/Temp/1/Rtmpq0WCeX/temp_libpath39285c7149bd
 #>   n_packages
 #> 1         29
 #> 2        306
 #> 3          1
 ```
 
-and you can also use the `lib` function
+and you can also use the `lib` function.
 
 ``` r
 lib()
@@ -381,343 +381,343 @@ lib()
 #> tcltk                 tcltk
 #> tools                 tools
 #> utils                 utils
-#>                                                                               LibPath
-#> libminer      C:/Users/brownn/AppData/Local/Temp/1/RtmpQvkhwe/temp_libpath5dd0fda6e55
-#> abind                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> adehabitatMA                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> anytime                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ape                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> arm                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> askpass                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> av                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> backports                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> base64enc                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> bayesm                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> bbmle                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> bdgramR                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> bdsmatrix                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> BH                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> bit                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> bit64                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> bitops                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> blme                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> blob                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> brew                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> brio                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> broom                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> broom.helpers                         C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> broom.mixed                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> bslib                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> cachem                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> callr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> car                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> carData                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> cellranger                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> classInt                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> cli                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> clipr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> coda                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> colorspace                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> colourpicker                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> commonmark                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> compositions                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> confintr                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> conflicted                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> corrplot                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> covr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> cowplot                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> cpp11                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> crayon                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> credentials                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> crosstalk                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> cubelyr                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> curl                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> data.table                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> DBI                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> dbplyr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> DEoptimR                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> desc                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> devtools                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> DHARMa                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> diffobj                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> digest                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> directlabels                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> doParallel                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> downlit                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> dplyr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> DT                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> dtplyr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> e1071                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ellipsis                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> emmeans                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> estimability                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> evaluate                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> fansi                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> farver                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> fastmap                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> fontawesome                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> forcats                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> foreach                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> forecast                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> fracdiff                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> fs                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> furrr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> future                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> fuzzyjoin                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gap                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gap.datasets                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gargle                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gdistance                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> generics                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> geomtextpath                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> geosphere                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gert                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> GGally                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gganimate                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggExtra                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggh4x                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gginnards                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggmap                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggOceanMaps                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggplot2                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggpmisc                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggpp                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggpubr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggrepel                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggridges                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggsci                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggsignif                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggspatial                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggstats                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggstream                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggtern                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ggtext                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gh                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gifski                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gitcreds                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> glmmTMB                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> globals                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> glue                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> googledrive                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> googlesheets4                         C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gridExtra                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gridtext                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> gtable                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> haven                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> here                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> hexbin                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> highr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> hms                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> htmltools                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> htmlwidgets                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> httpuv                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> httr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> httr2                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ids                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> igraph                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> imputeTS                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ini                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> insight                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> isoband                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> iterators                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> janitor                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> jpeg                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> jquerylib                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> jsonlite                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> knitr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> labeling                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> labelled                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> later                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> latex2exp                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> lazyeval                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> libminer.1                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> lifecycle                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> listenv                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> lme4                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> lmodel2                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> lmtest                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> lpSolve                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> lubridate                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> magrittr                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> mapdata                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> mapproj                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> maps                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> markdown                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> marmap                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> MatrixModels                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> MBA                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> memoise                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> merTools                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> mime                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> miniUI                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> minqa                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> modelr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> multcomp                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> multcompView                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> MuMIn                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> munsell                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> mvtnorm                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ncdf4                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> nloptr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> numDeriv                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> odbc                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> openssl                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> openxlsx                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> parallelly                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> patchwork                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> pbkrtest                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> pillar                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> pkgbuild                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> pkgconfig                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> pkgdown                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> pkgload                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> plogr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> plotly                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> plotrix                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> plyr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> png                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> polynom                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> praise                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> prettyunits                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> processx                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> profvis                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> progress                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> promises                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> proto                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> proxy                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ps                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> purrr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> qgam                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> quadprog                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> quantmod                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> quantreg                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> R6                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> ragg                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rappdirs                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> raster                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rbibutils                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rcmdcheck                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> RColorBrewer                          C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> Rcpp                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> RcppArmadillo                         C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> RcppEigen                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> Rdpack                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> readr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> readxl                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rematch                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rematch2                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> remotes                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> reprex                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> reshape2                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rex                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rlang                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rmarkdown                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> robustbase                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rosm                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> roxygen2                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rprojroot                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> RSQLite                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rstatix                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rstudioapi                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rversions                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> rvest                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> s2                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> saaWeb                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> sandwich                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> sass                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> scales                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> selectr                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> sessioninfo                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> sf                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> shape                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> shiny                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> shinyjs                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> smoothr                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> snakecase                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> sourcetools                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> sp                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> SparseM                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> splus2R                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> stars                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> stinepack                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> stringdist                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> stringi                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> stringr                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> svMisc                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> sys                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> systemfonts                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tensorA                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> terra                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> testthat                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> textshaping                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> TH.data                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tibble                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tidyhydat                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tidyr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tidyselect                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tidyverse                             C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> timechange                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> timeDate                              C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tinytex                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> TMB                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> transformr                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tseries                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tsibble                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> TTR                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tweenr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> tzdb                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> units                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> urca                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> urlchecker                            C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> usethis                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> utf8                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> uuid                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> vctrs                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> viridis                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> viridisLite                           C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> vroom                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> waldo                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> whisker                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> withr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> wk                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> writexl                               C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> xfun                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> xml2                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> xopen                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> xtable                                C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> xts                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> yaml                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> zip                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> zoo                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
-#> base                                               C:/Program Files/R/R-4.4.0/library
-#> boot                                               C:/Program Files/R/R-4.4.0/library
-#> class                                              C:/Program Files/R/R-4.4.0/library
-#> cluster                                            C:/Program Files/R/R-4.4.0/library
-#> codetools                                          C:/Program Files/R/R-4.4.0/library
-#> compiler                                           C:/Program Files/R/R-4.4.0/library
-#> datasets                                           C:/Program Files/R/R-4.4.0/library
-#> foreign                                            C:/Program Files/R/R-4.4.0/library
-#> graphics                                           C:/Program Files/R/R-4.4.0/library
-#> grDevices                                          C:/Program Files/R/R-4.4.0/library
-#> grid                                               C:/Program Files/R/R-4.4.0/library
-#> KernSmooth                                         C:/Program Files/R/R-4.4.0/library
-#> lattice                                            C:/Program Files/R/R-4.4.0/library
-#> MASS                                               C:/Program Files/R/R-4.4.0/library
-#> Matrix                                             C:/Program Files/R/R-4.4.0/library
-#> methods                                            C:/Program Files/R/R-4.4.0/library
-#> mgcv                                               C:/Program Files/R/R-4.4.0/library
-#> nlme                                               C:/Program Files/R/R-4.4.0/library
-#> nnet                                               C:/Program Files/R/R-4.4.0/library
-#> parallel                                           C:/Program Files/R/R-4.4.0/library
-#> rpart                                              C:/Program Files/R/R-4.4.0/library
-#> spatial                                            C:/Program Files/R/R-4.4.0/library
-#> splines                                            C:/Program Files/R/R-4.4.0/library
-#> stats                                              C:/Program Files/R/R-4.4.0/library
-#> stats4                                             C:/Program Files/R/R-4.4.0/library
-#> survival                                           C:/Program Files/R/R-4.4.0/library
-#> tcltk                                              C:/Program Files/R/R-4.4.0/library
-#> tools                                              C:/Program Files/R/R-4.4.0/library
-#> utils                                              C:/Program Files/R/R-4.4.0/library
+#>                                                                                LibPath
+#> libminer      C:/Users/brownn/AppData/Local/Temp/1/Rtmpq0WCeX/temp_libpath39285c7149bd
+#> abind                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> adehabitatMA                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> anytime                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ape                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> arm                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> askpass                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> av                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> backports                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> base64enc                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> bayesm                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> bbmle                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> bdgramR                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> bdsmatrix                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> BH                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> bit                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> bit64                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> bitops                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> blme                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> blob                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> brew                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> brio                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> broom                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> broom.helpers                          C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> broom.mixed                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> bslib                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> cachem                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> callr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> car                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> carData                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> cellranger                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> classInt                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> cli                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> clipr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> coda                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> colorspace                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> colourpicker                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> commonmark                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> compositions                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> confintr                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> conflicted                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> corrplot                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> covr                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> cowplot                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> cpp11                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> crayon                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> credentials                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> crosstalk                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> cubelyr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> curl                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> data.table                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> DBI                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> dbplyr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> DEoptimR                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> desc                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> devtools                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> DHARMa                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> diffobj                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> digest                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> directlabels                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> doParallel                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> downlit                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> dplyr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> DT                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> dtplyr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> e1071                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ellipsis                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> emmeans                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> estimability                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> evaluate                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> fansi                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> farver                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> fastmap                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> fontawesome                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> forcats                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> foreach                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> forecast                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> fracdiff                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> fs                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> furrr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> future                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> fuzzyjoin                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gap                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gap.datasets                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gargle                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gdistance                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> generics                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> geomtextpath                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> geosphere                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gert                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> GGally                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gganimate                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggExtra                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggh4x                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gginnards                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggmap                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggOceanMaps                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggplot2                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggpmisc                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggpp                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggpubr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggrepel                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggridges                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggsci                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggsignif                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggspatial                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggstats                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggstream                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggtern                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ggtext                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gh                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gifski                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gitcreds                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> glmmTMB                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> globals                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> glue                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> googledrive                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> googlesheets4                          C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gridExtra                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gridtext                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> gtable                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> haven                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> here                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> hexbin                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> highr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> hms                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> htmltools                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> htmlwidgets                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> httpuv                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> httr                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> httr2                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ids                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> igraph                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> imputeTS                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ini                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> insight                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> isoband                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> iterators                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> janitor                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> jpeg                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> jquerylib                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> jsonlite                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> knitr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> labeling                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> labelled                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> later                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> latex2exp                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> lazyeval                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> libminer.1                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> lifecycle                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> listenv                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> lme4                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> lmodel2                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> lmtest                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> lpSolve                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> lubridate                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> magrittr                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> mapdata                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> mapproj                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> maps                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> markdown                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> marmap                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> MatrixModels                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> MBA                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> memoise                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> merTools                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> mime                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> miniUI                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> minqa                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> modelr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> multcomp                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> multcompView                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> MuMIn                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> munsell                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> mvtnorm                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ncdf4                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> nloptr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> numDeriv                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> odbc                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> openssl                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> openxlsx                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> parallelly                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> patchwork                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> pbkrtest                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> pillar                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> pkgbuild                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> pkgconfig                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> pkgdown                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> pkgload                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> plogr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> plotly                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> plotrix                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> plyr                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> png                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> polynom                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> praise                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> prettyunits                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> processx                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> profvis                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> progress                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> promises                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> proto                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> proxy                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ps                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> purrr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> qgam                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> quadprog                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> quantmod                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> quantreg                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> R6                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> ragg                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rappdirs                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> raster                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rbibutils                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rcmdcheck                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> RColorBrewer                           C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> Rcpp                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> RcppArmadillo                          C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> RcppEigen                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> Rdpack                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> readr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> readxl                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rematch                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rematch2                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> remotes                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> reprex                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> reshape2                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rex                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rlang                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rmarkdown                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> robustbase                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rosm                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> roxygen2                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rprojroot                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> RSQLite                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rstatix                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rstudioapi                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rversions                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> rvest                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> s2                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> saaWeb                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> sandwich                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> sass                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> scales                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> selectr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> sessioninfo                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> sf                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> shape                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> shiny                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> shinyjs                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> smoothr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> snakecase                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> sourcetools                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> sp                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> SparseM                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> splus2R                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> stars                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> stinepack                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> stringdist                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> stringi                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> stringr                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> svMisc                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> sys                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> systemfonts                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tensorA                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> terra                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> testthat                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> textshaping                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> TH.data                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tibble                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tidyhydat                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tidyr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tidyselect                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tidyverse                              C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> timechange                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> timeDate                               C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tinytex                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> TMB                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> transformr                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tseries                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tsibble                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> TTR                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tweenr                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> tzdb                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> units                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> urca                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> urlchecker                             C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> usethis                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> utf8                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> uuid                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> vctrs                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> viridis                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> viridisLite                            C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> vroom                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> waldo                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> whisker                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> withr                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> wk                                     C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> writexl                                C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> xfun                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> xml2                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> xopen                                  C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> xtable                                 C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> xts                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> yaml                                   C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> zip                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> zoo                                    C:/Users/brownn/AppData/Local/R/win-library/4.4
+#> base                                                C:/Program Files/R/R-4.4.0/library
+#> boot                                                C:/Program Files/R/R-4.4.0/library
+#> class                                               C:/Program Files/R/R-4.4.0/library
+#> cluster                                             C:/Program Files/R/R-4.4.0/library
+#> codetools                                           C:/Program Files/R/R-4.4.0/library
+#> compiler                                            C:/Program Files/R/R-4.4.0/library
+#> datasets                                            C:/Program Files/R/R-4.4.0/library
+#> foreign                                             C:/Program Files/R/R-4.4.0/library
+#> graphics                                            C:/Program Files/R/R-4.4.0/library
+#> grDevices                                           C:/Program Files/R/R-4.4.0/library
+#> grid                                                C:/Program Files/R/R-4.4.0/library
+#> KernSmooth                                          C:/Program Files/R/R-4.4.0/library
+#> lattice                                             C:/Program Files/R/R-4.4.0/library
+#> MASS                                                C:/Program Files/R/R-4.4.0/library
+#> Matrix                                              C:/Program Files/R/R-4.4.0/library
+#> methods                                             C:/Program Files/R/R-4.4.0/library
+#> mgcv                                                C:/Program Files/R/R-4.4.0/library
+#> nlme                                                C:/Program Files/R/R-4.4.0/library
+#> nnet                                                C:/Program Files/R/R-4.4.0/library
+#> parallel                                            C:/Program Files/R/R-4.4.0/library
+#> rpart                                               C:/Program Files/R/R-4.4.0/library
+#> spatial                                             C:/Program Files/R/R-4.4.0/library
+#> splines                                             C:/Program Files/R/R-4.4.0/library
+#> stats                                               C:/Program Files/R/R-4.4.0/library
+#> stats4                                              C:/Program Files/R/R-4.4.0/library
+#> survival                                            C:/Program Files/R/R-4.4.0/library
+#> tcltk                                               C:/Program Files/R/R-4.4.0/library
+#> tools                                               C:/Program Files/R/R-4.4.0/library
+#> utils                                               C:/Program Files/R/R-4.4.0/library
 #>                  Version    Priority
 #> libminer      0.0.0.9000        <NA>
 #> abind              1.4-5        <NA>
@@ -1541,7 +1541,7 @@ lib()
 #> later                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Rcpp (>= 0.12.9), rlang
 #> latex2exp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               stringr, magrittr
 #> lazyeval                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <NA>
-#> libminer.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <NA>
+#> libminer.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      fs, purrr
 #> lifecycle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          cli (>= 3.4.0), glue, rlang (>= 1.1.0)
 #> listenv                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <NA>
 #> lme4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              graphics, grid, splines, utils, parallel, MASS, lattice, boot,\nnlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
@@ -2067,7 +2067,7 @@ lib()
 #> tools                                                           <NA>
 #> utils                                                           <NA>
 #>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Suggests
-#> libminer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           testthat (>= 3.0.0)
+#> libminer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       knitr,\nrmarkdown,\ntestthat (>= 3.0.0)
 #> abind                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <NA>
 #> adehabitatMA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             tkrplot, MASS
 #> anytime                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     tinytest (>= 1.0.0), gettz
@@ -2215,7 +2215,7 @@ lib()
 #> later                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            knitr, rmarkdown, testthat (>= 2.1.0)
 #> latex2exp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        testthat, waldo, knitr, ggplot2, rmarkdown, purrr, tibble,\nreactable, htmltools, RCurl, rlang, dplyr
 #> lazyeval                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  knitr, rmarkdown (>= 0.2.65), testthat, covr
-#> libminer.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <NA>
+#> libminer.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       knitr, rmarkdown, testthat (>= 3.0.0)
 #> lifecycle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),\ntibble, tidyverse, tools, vctrs, withr
 #> listenv                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       R.utils, R.rsp, markdown
 #> lme4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2,\nmlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,\nnumDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble,\nmerDeriv
@@ -3226,7 +3226,7 @@ lib()
 #> later                          <NA>    <NA>   <NA>              yes 4.4.0
 #> latex2exp                      <NA>    <NA>   <NA>               no 4.4.1
 #> lazyeval                       <NA>    <NA>   <NA>              yes 4.4.0
-#> libminer.1                     <NA>    <NA>   <NA>             <NA> 4.4.0
+#> libminer.1                     <NA>    <NA>   <NA>               no 4.4.0
 #> lifecycle                      <NA>    <NA>   <NA>               no 4.4.0
 #> listenv                        <NA>    <NA>   <NA>               no 4.4.0
 #> lme4                           <NA>    <NA>   <NA>              yes 4.4.0

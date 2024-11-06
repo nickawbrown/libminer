@@ -42,7 +42,7 @@ library(libminer)
 lib_summary()
 ```
 
-and you can also use the `lib` function
+and you can also use the `lib` function.
 
 ```{r}
 lib()
