@@ -98,6 +98,7 @@ starwars_dynamic_summary <- function(...) {
 }
 
 starwars_dynamic_summary(mass, height)
+<<<<<<< HEAD
 
 
 # Another across() example
@@ -119,3 +120,5 @@ mtcars |>
     #starts_with("mp")
     where(is.numeric)
   )
+=======
+>>>>>>> e0f743fba3e69bf222f756f023439932959e074b
