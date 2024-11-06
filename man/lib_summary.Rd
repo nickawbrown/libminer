@@ -4,10 +4,13 @@
 \alias{lib_summary}
 \title{Provide number of R packages by library}
 \usage{
-lib_summary(sizes = FALSE)
+lib_summary(by = .data$LibPath, sizes = FALSE)
 }
 \arguments{
-\item{sizes}{Calculate sizes of libraries? Default is \code{FALSE}.}
+\item{by}{tidy-select columns to group by. Defaults to \code{LibPath}}
+
+\item{sizes}{logical should file sizes be calculated? Defaults
+to \code{FALSE}}
 }
 \value{
 a data.frame of R packages by library

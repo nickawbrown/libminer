@@ -2,7 +2,9 @@
 #'
 #' Provide the number of R packages by library in a data frame
 #'
-#' @param sizes Calculate sizes of libraries? Default is `FALSE`.
+#' @param by tidy-select columns to group by. Defaults to `LibPath`
+#' @param sizes logical should file sizes be calculated? Defaults
+#' to `FALSE`
 #'
 #' @return a data.frame of R packages by library
 #'
@@ -10,23 +12,22 @@
 #'
 #' @examples
 #' lib_summary()
-lib_summary <- function(sizes = FALSE) {
-  if (!is.logical(sizes)) {
-    stop("'sizes' must be logical (TRUE or FALSE)")
+lib_summary <- function(by = .data$LibPath, sizes = FALSE) {
+  if(!is.logical(sizes)) {
+    stop("'sizes' must be logical, i.e. 'TRUE' or 'FALSE'")
   }
 
-  pkg_df <- lib()
-  pkg_tbl <- table(pkg_df[, "LibPath"])
-  pkg_df <- as.data.frame(pkg_tbl, stringsAsFactors = FALSE)
+  pkg_df <- lib() |>
+    calculate_sizes(do_calc = sizes)
 
-  names(pkg_df) <- c("Library", "n_packages")
-
-  if (isTRUE(sizes)) {
-    pkg_df <- calculate_sizes(pkg_df)
-  }
-
-  pkg_df
+  pkg_df |>
+    dplyr::group_by({{ by }}) |>
+    dplyr::summarize(
+      n = dplyr::n(),
+      dplyr::across(dplyr::any_of("size"), sum, .names = "size")
+    )
 }
+
 
 #' Generate a data frame of installed packages
 #'
@@ -41,13 +42,22 @@ lib <- function() {
 #' calculate sizes
 #'
 #' @param df a data.frame
+#' @param do_calc logical should the function be executed? Default is
+#' `FALSE`
 #'
-#' @return df with a lib_size column
+#' @return df with a size column
 #' @noRd
-calculate_sizes <- function(df) {
-  df$lib_size <- map_dbl(
-    df$Library,
-    \(x) sum(fs::file_size(fs::dir_ls(x, recurse = TRUE)))
-  )
-  df
+calculate_sizes <- function(df, do_calc = FALSE) {
+  if(!do_calc) {
+    return(df)
+  }
+
+  df |>
+    dplyr::mutate(
+      size = map_dbl(
+        fs::path(.data$LibPath, .data$Package),
+        \(x) sum(fs::file_size(fs::dir_ls(x, recurse = TRUE)))
+      )
+    )
 }
+
